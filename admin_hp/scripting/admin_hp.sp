@@ -49,7 +49,7 @@ public void OnPluginStart(){
 public Action restore_hp(int client, int args){
 	if (client == 0)
 	{
-		PrintToServer("[TS] \"Restore_hp\" cannot be used by server.");
+		PrintToServer("[Orz] \"Restore_hp\" cannot be used by server.");
 		return Plugin_Handled;
 	}
 	
@@ -58,8 +58,8 @@ public Action restore_hp(int client, int args){
 			CheatCommand(i);
 	}
 	
-	PrintToChatAll("\x01[\x05TS\x01] Adm \x03%N \x01restores \x05all survivors \x04FULL HP", client);
-	LogMessage("[TS] Adm %N restores all survivors FULL HP", client);
+	PrintToChatAll("\x01[\x05Orz\x01] Anonymous Adm \x01restores \x05all survivors \x04FULL HP");
+	LogMessage("[Orz] Adm %N restores all survivors FULL HP", client);
 	
 	return Plugin_Handled;
 }
