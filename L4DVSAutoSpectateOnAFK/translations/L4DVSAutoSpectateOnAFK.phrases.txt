@@ -8,7 +8,7 @@
 	{
 		"en"	"You're spectating. Join any team to play."
 		"zho"	"輸入 !join 加入遊戲..."
-		"chi"	"输入 !join 加入游戏..."
+		"chi"	"你现在在旁观。按M或控制台输入jointeam 2加入生还或jointeam 3加入特感..."
 		"hu"	"Néző vagy. Csatlakozz bármelyik csapathoz, hogy játszhass. !join"
 	}	
 	"[AFK] Inactivity detected! 1"
@@ -30,15 +30,15 @@
 	{
 		"#format"		"{1:d}"
 		"en"	"[AFK] Inactivity detected! Join any team to play.\n Otherwise you'll be kicked from server in {1} seconds."
-		"zho"	"[AFK] 偵測旁觀閒置! 輸入!join加入遊戲\n 否則你將於 {1} 秒後被踢出伺服器."
-		"chi"	"[AFK] 探测旁观闲置! 输入!join加入游戏\n 否则你将于 {1} 秒后被踢出伺服器."
+		"zho"	"[AFK] 偵測旁觀閒置! 按M加入遊戲\n 否則你將於 {1} 秒後被踢出伺服器."
+		"chi"	"[AFK] 探测旁观闲置! 按M或控制台输入jointeam 2加入生还或jointeam 3加入特感\n 否则你将于 {1} 秒后被踢出伺服器."
 		"hu"	"[AFK] Inaktivitás észlelve! Csatlakozz bármelyik csapathoz.\n (!join) Ellenkező esetben {1} másodperc múlva kirúgunk a szerverről."
 	}
 	"[AFK] Inactivity detected! 4"
 	{
 		"en"	"[AFK] Inactivity detected! Join any team to play.\n Otherwise you'll be kicked from server."
-		"zho"	"[AFK] 偵測旁觀閒置! 輸入!join加入遊戲\n 一旦有人離開安全區域你將被踢出伺服器."
-		"chi"	"[AFK] 检测到旁观闲置! 输入!join加入游戏\n 一旦有人离开安全区域你将被踢出服务器."
+		"zho"	"[AFK] 偵測旁觀閒置! 按M加入遊戲\n 一旦有人離開安全區域你將被踢出伺服器."
+		"chi"	"[AFK] 检测到旁观闲置! 按M或控制台输入jointeam 2加入生还或jointeam 3加入特感\n 一旦有人离开安全区域你将被踢出服务器."
 		"hu"	"[AFK] Inaktivitás észlelve! Csatlakozz bármelyik csapathoz, hogy játszhass.\n (!join) Ellenkező esetben kirúgunk a szerverről."
 	}
 	"have been kicked from server due to inactivity"
