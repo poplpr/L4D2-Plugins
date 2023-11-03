@@ -25,8 +25,8 @@
 // -----
 //	以下顏色只支援於 L4D1/L4D2:
 //	 - {default}	(白色)
-//	 - {green}		(橘色)
-//	 - {olive}		(綠色)
+//	 - {green}		(綠色)
+//	 - {olive}		(橘色)
 //	 - {lightgreen}	(淺綠色)
 //	 - {red}		(紅色)
 //	 - {blue}		(藍色)
@@ -37,46 +37,58 @@
 {
     "1"
     {
-         "chat"			"{olive}!votes {lightgreen}投票菜單: 踢人、換圖、重新關卡"
+         "chat"			"{lightgreen}聊天栏输入 {olive}!votes{lightgreen} 打开投票菜单！"
     }
 	"2"
     {
-        "chat"			"{olive}!js{lightgreen}: 加入人類陣營, {olive}!s{lightgreen}: 休息旁觀, {olive}!ji{lightgreen}: 成為特感陣營"
+        "chat"			"{lightgreen}日期: {date}, 时间: {time}"
     }
 	"3"
     {
-        "chat"			"{lightgreen}商店功能已開啟! 輸入 {olive}!buy{lightgreen} 購買商品"
+        "chat"			"{lightgreen}本服 admin 由于受不了药抗大部分人的对待萌新的恶臭风气决定自己开服玩。Ta 很神秘，不希望你们知道 Ta 是谁。"
     }
 	"4"
     {
-        "chat"			"{lightgreen}輸入 {olive}!help{lightgreen} 了解本伺服器的內容"
+        "chat"			"{lightgreen}本服面向的玩家群体实力最低门槛为：明白所有特感的基础操作方法（例如 Hunter 必须蹲才能飞出去），明确 C2 和 C5 两张图在包抗中基础攻防，以及，所有操作{olive}必须抱团！"
     }
-	"5"
+    "5"
     {
-        "chat"			"{lightgreen}本伺服器運行{green}《L4D2-Resistance 反抗模式》{lightgreen}, 開發者: {green}Harry"
+        "chat"          "{lightgreen}希望来本服的大佬在踢萌新之前考虑一下 Ta 是否满足了本服最低门槛要求，如果满足了要求还踢Ta，那么你也有{olive}小概率被踢出{lightgreen}。"
     }
     "6"
     {
-         "chat"			"{olive}!votes{lightgreen}: kick、change map、restartmap"
+        "chat"          "{lightgreen}被踢的萌新不要气馁，如果自己没达到本服最低门槛，那么就去战役/包抗多练练再回来；反之如果到了，{olive}干死这敢踢你的反动派{lightgreen}。"
     }
 	"7"
     {
-        "chat"			"{olive}!js{lightgreen}: Join Survivor, {olive}!s{lightgreen}: Join Spectator, {olive}!ji{lightgreen}: Join Infected"
+        "chat"			"{green}【萌新教程】{lightgreen}上 B 站搜索 1OfHGuy落子(https://space.bilibili.com/1741281) 的 VT China 全教程以及 KeFei(https://space.bilibili.com/188672667) 的 L4HF 教程提升你的药抗技巧。"
+    }
+	"7"
+    {
+        "chat"			"{green}【萌新小技巧】{lightgreen}聊天栏输入 {olive}!s{lightgreen} 可以旁观，不过请不要在服务器内大于等于 8 人且无人补位时旁观！"
     }
 	"8"
     {
-        "chat"			"{lightgreen}Shop is open now! type {olive}!buy{lightgreen} to purchase useful item"
+        "chat"			"{green}【萌新小技巧】{lightgreen}按~键打开控制台，输入 {olive}cl_interp_ratio 0; cl_interp 0;{lightgreen} 即可将自己修改为 0 lerp."
     }
 	"9"
     {
-        "chat"			"{lightgreen}Type {olive}!help{lightgreen} to know server information"
+        "chat"			"{green}【萌新小技巧】{lightgreen}如果出现看不到其他人模型的情况，请按~打开控制台，输入 {olive}record 1; stop;{lightgreen} 录制 demo 重置一下就可以了。{default}注：造成该问题的原因一般是切屏。"
     }
 	"10"
     {
-        "chat"			"{lightgreen}This server runs{green}《L4D2-Resistance Mod》{lightgreen}, developer: {green}Harry"
+        "chat"			"{green}【萌新小技巧】{lightgreen}生还在萌新阶段不坑的核心奥义是{olive}紧紧抱团{lightgreen}，例如不要长时间沉迷找物资然后被特感控！"
     }
 	"11"
     {
-        "chat"			"{lightgreen}Date: {date}, Time: {time}"
+        "chat"			"{green}【萌新小技巧】{lightgreen}特感在萌新阶段不坑的核心奥义是{olive}紧紧抱团{lightgreen}，例如一起上交替掩护防止生还集火！"
+    }
+	"12"
+    {
+        "chat"			"{green}【萌新小技巧】{lightgreen}口水 (Spitter) 单上/先上的情形很少，萌新阶段请尽量{olive}后上{lightgreen}，朝你队友帮你控制的生还脚下吐口水！"
+    }
+	"13"
+    {
+        "chat"			"{lightgreen}萌新如果拿到 Tank 可以自己尝试游玩，如果实在不愿意坑队友可以在控制台输入 {olive}!s{lightgreen} 旁观然后再 M 回来随机甩锅。{olive}请听大佬指挥{lightgreen}。"
     }
 }
