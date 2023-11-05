@@ -42,7 +42,7 @@ public void OnPluginStart()
     g_hEnabled  = CreateConVar("sm_advertisements_enabled",  "1",                  "Enable/disable displaying advertisements.", FCVAR_NOTIFY);
     g_hFile     = CreateConVar("sm_advertisements_file",     "advertisements.txt", "File to read the advertisements from.", FCVAR_NOTIFY);
     g_hInterval = CreateConVar("sm_advertisements_interval", "30",                 "Amount of seconds between advertisements.", FCVAR_NOTIFY);
-    g_hSoundFile = CreateConVar("sm_advertisements_soundfile", "ui/beepclear.wav", "Display advertisement sound file (relative to to sound/, empty=disable)", FCVAR_NOTIFY);
+    g_hSoundFile = CreateConVar("sm_advertisements_soundfile", "", "Display advertisement sound file (relative to to sound/, empty=disable)", FCVAR_NOTIFY);
 	
     g_hFile.AddChangeHook(ConVarChange_File);
     g_hInterval.AddChangeHook(ConVarChange_Interval);
